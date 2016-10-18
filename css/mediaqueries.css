@@ -1,0 +1,58 @@
+html {
+  font-size:62.5%;
+}
+
+
+@media screen and (max-width: 550px)
+{
+    .search{
+      display:none;
+    }
+
+    .share{
+      display:none;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+
+  html{
+    font-size:50%;
+  }
+
+}
+
+@media screen and (max-width: 450px)
+{
+  section{
+    width: 100%;
+  }
+  article {
+    width:40%;
+  }
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+h1   {
+  font-size: 2.4rem;
+}
+
+h2{
+  font-size: 2.8rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+.artiste {
+  font-size: 0.6em;
+}
